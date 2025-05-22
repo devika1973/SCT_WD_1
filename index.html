@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Urban nest Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+      <div class="logo">
+        <img src="BIRD.jpg" alt="Urban Nest Logo" class="logo-img">
+        <span class="site-name">Urban Nest</span>
+      </div>
+      
+    <div class="BIRD.jpg"></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" id="show-login">Sign In</a></li>
+      <li><a href="#" id="show-register">Sign Up</a></li>
+    </ul>
+  </nav>
+  
+
+  <section id="home" class="welcome-section section">
+
+    <div class="welcome-content">
+        
+        <h1 class="welcome-title">Welcome to Urban Nest</h1>
+<p class="welcome-subtitle">Bringing Modern Elegance to Your Nest</p>
+
+
+        
+    </div>
+  </section>
+  
+
+  
+  <section id="about" class="section about-section">
+    <h2 class="section-title animate-fade-in">About Us</h2>
+  
+    <div class="hero-content">
+      <h1 class="hero-name animate-slide-in">Hi, I'm <span class="highlight">Jackson</span></h1>
+  
+      <p class="typed-text animate-typing" id="typed-text"></p>
+  
+      <p class="about-description animate-fade-in-delay">
+        <span class="intro">Urban Nest</span> started with one simple idea:
+        To create furniture that combines <strong>modern aesthetics</strong> with <strong>lasting comfort</strong>.
+        Today, our designs bring <em>warmth and elegance</em> to homes across the country.
+      </p>
+  
+      <p class="about-description animate-fade-in-delay2">
+        You deserve a home that reflects your personality. At Urban Nest, we design furniture that enhances every corner of your space—
+        <span class="highlight">effortlessly stylish</span>, always comfortable.
+      </p>
+  
+      <p class="about-description animate-fade-in-delay3">
+        At Urban Nest, we believe every home deserves furniture that blends elegance with comfort.
+        Our mission is to craft <strong>timeless pieces</strong> that elevate spaces while prioritizing sustainability.
+      </p>
+  
+      <p class="cta-text animate-fade-in-delay4">
+        👉 To further access our features, please <strong>Sign In</strong> accordingly.<br>
+        💬 “Looking to refresh your space? Let’s create something amazing together. <span class="highlight">Contact us today!</span>”<br>
+      </p>
+  
+      <a href="#contact" class="cta-button animate-fade-in-delay5">Get in Touch<br></a><br>
+  
+      <p class="extra-info animate-fade-in-delay6" style="color: rgb(0, 0, 0); font-size: 18px;">
+        For more details, simply scroll down to explore the various types of furniture available...
+      </p>
+    </div>
+  </section>
+  
+    </div>
+  </section>
+  
+ 
+  <section id="services">
+    <div class="services-container">
+      <h2>Home Styling</h2>
+      <div class="service-cards">
+        <div class="service-card wooden-box">
+          <img src="wooden.jpg" alt="Wooden Furniture" />
+          <h3>Wooden Furniture</h3>
+          <p>Find the best properties in top locations, verified and ready for you to explore.</p>
+        </div>
+        <div class="service-card wooden-box">
+          <img src="o.jpg" alt="Glass Furniture" />
+          <h3>Glass Furniture</h3>
+          <p>Transform your home with our expert interior design consultation and services.</p>
+        </div>
+        <div class="service-card wooden-box">
+          <img src="syn.webp" alt="Synthetic Furniture" />
+          <h3>Synthetic Furniture</h3>
+          <p>Explore top-tier properties in sought-after locations, fully verified and ready for your next adventure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="contact" class="section">
+    <h2>Get In Touch</h2><BR><BR>
+        <h3>Our Email</h3>   
+    <p>Email: contact@urbannest.com></p><br>
+    <h3>Reach Us On</h3> 
+    <p>Contact No.: 1234567890</p><br>
+    <h3>Stay connected—follow us on social media for the latest designs</h3> 
+    <p>Follow us on instagram: instagram.com/urbannest</p><br>
+    <p>Join us on LinkedIn: Urban Nest – Your Interior Design Experts</p><br>
+    <p>Join us on Facebook: @urban.nest</p><br>
+
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 URBAN NEST. All rights reserved.</p>
+  </footer>
+
+  <!-- SIGN IN FORM -->
+  <div class="auth-popup" id="loginForm">
+    <div class="auth-box">
+      <span class="close-btn" id="closeLogin">×</span>
+      <h2>Welcome Back 👋</h2>
+      <form>
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="••••••••" required />
+        </div>
+        <button type="submit">Sign In</button>
+        <p class="switch-link">New here? <a href="#" id="goToRegister">Create Account</a></p>
+      </form>
+    </div>
+  </div>
+  
+
+  <!-- SIGN UP FORM -->
+  <div class="auth-popup" id="registerForm">
+    <div class="auth-box">
+      <span class="close-btn" id="closeRegister">×</span>
+      <h2>Create Your Account 🎉</h2>
+      <form>
+        <div class="input-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="John Doe" required />
+        </div>
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="Create a password" required />
+        </div>
+        <button type="submit">Sign Up</button>
+        <p class="switch-link">Already have an account? <a href="#" id="goToLogin">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Script Link -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal().reveal('#home', { delay: 200, distance: '50px', origin: 'bottom', duration: 1000 });
+  ScrollReveal().reveal('#about', { delay: 300, distance: '50px', origin: 'left', duration: 1000 });
+  ScrollReveal().reveal('#services', { delay: 400, distance: '50px', origin: 'right', duration: 1000 });
+  ScrollReveal().reveal('#contact', { delay: 500, distance: '50px', origin: 'bottom', duration: 1000 });
+</script>
+
+<script>
+  // Home Section
+  ScrollReveal().reveal('.welcome-title', {
+    delay: 300,
+    origin: 'top',
+    distance: '40px',
+    duration: 1200,
+    easing: 'ease-in-out',
+    reset: true
+  });
+  ScrollReveal().reveal('.welcome-subtitle', {
+    delay: 500,
+    origin: 'bottom',
+    distance: '30px',
+    duration: 1000,
+    reset: true
+  });
+
+  // About Section
+  ScrollReveal().reveal('.hero-name', { delay: 400, origin: 'left', distance: '40px', duration: 1000 });
+  ScrollReveal().reveal('.typed-text', { delay: 600, origin: 'right', distance: '40px', duration: 1000 });
+  ScrollReveal().reveal('.about-description', { interval: 200, origin: 'bottom', distance: '30px', duration: 1000 });
+
+  // Services Cards
+  ScrollReveal().reveal('.service-card', { interval: 200, origin: 'bottom', distance: '50px', duration: 1200 });
+
+  // Contact Section Texts
+  ScrollReveal().reveal('#contact h2, #contact h3, #contact p', {
+    interval: 100,
+    origin: 'bottom',
+    distance: '30px',
+    duration: 1000
+  });
+
+  // Call to Action Button
+  ScrollReveal().reveal('.cta-button', { delay: 700, origin: 'top', distance: '30px', duration: 1000 });
+</script>
+
+</body>
+</html>
